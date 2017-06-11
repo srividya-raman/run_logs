@@ -1,0 +1,12 @@
+Feature: Sample tests for behave # ../tmp/verifier/suites/behave/features/sampletest.feature:3
+
+  Scenario: running a sample positive test  # ../tmp/verifier/suites/behave/features/sampletest.feature:5
+    Given we have a string "Hello world"    # ../tmp/verifier/suites/behave/steps/steps_sample.py:9
+    When we get a string                    # ../tmp/verifier/suites/behave/steps/steps_sample.py:15
+    Then both should be equal               # ../tmp/verifier/suites/behave/steps/steps_sample.py:20
+
+  Scenario: running a sample positive test with two values  # ../tmp/verifier/suites/behave/features/sampletest.feature:10
+    Given we have two strings value1 value2                 # ../tmp/verifier/suites/behave/steps/steps_sample.py:25
+    When we get the strings                                 # ../tmp/verifier/suites/behave/steps/steps_sample.py:32
+    Then strings that we have and got are equal             # ../tmp/verifier/suites/behave/steps/steps_sample.py:37
+

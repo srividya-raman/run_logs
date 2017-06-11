@@ -1,0 +1,1128 @@
+-----> Starting Kitchen (v1.16.0)
+-----> Setting up <default-ubuntu-1604>...
+       Finished setting up <default-ubuntu-1604> (0m0.00s).
+-----> Verifying <default-ubuntu-1604>...
+       Preparing files for transfer
+root@'s password:
+-----> Installing Busser (busser)
+       Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 17%)Fetching: thor-0.19.0.gem ( 20%)Fetching: thor-0.19.0.gem ( 23%)Fetching: thor-0.19.0.gem ( 26%)Fetching: thor-0.19.0.gem ( 29%)Fetching: thor-0.19.0.gem ( 32%)Fetching: thor-0.19.0.gem ( 35%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+       Successfully installed thor-0.19.0
+       Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+       Successfully installed busser-0.7.1
+       2 gems installed
+       Installing Busser plugins: busser-behave busser-robot
+       Plugin behave installed (version 0.1.3)
+-----> Running postinstall for behave plugin
+         % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+         0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 23 1558k   23  367k    0     0   459k      0  0:00:03 --:--:--  0:00:03  459k100 1558k  100 1558k    0     0  1323k      0  0:00:01  0:00:01 --:--:-- 1324k
+       Requirement already up-to-date: pip in /usr/local/lib/python2.7/dist-packages
+       Collecting setuptools
+         Using cached setuptools-36.0.1-py2.py3-none-any.whl
+       Installing collected packages: setuptools
+       Successfully installed setuptools-36.0.1
+       running install
+       running bdist_egg
+       running egg_info
+       creating behave.egg-info
+       writing requirements to behave.egg-info/requires.txt
+       writing behave.egg-info/PKG-INFO
+       writing top-level names to behave.egg-info/top_level.txt
+       writing dependency_links to behave.egg-info/dependency_links.txt
+       writing entry points to behave.egg-info/entry_points.txt
+       writing manifest file 'behave.egg-info/SOURCES.txt'
+       reading manifest file 'behave.egg-info/SOURCES.txt'
+       reading manifest template 'MANIFEST.in'
+       warning: no files found matching '.coveragerc'
+       warning: no files found matching '.editorconfig'
+       warning: no files found matching '.pycheckrc'
+       warning: no files found matching '.pylintrc'
+       warning: no files found matching '*.yml'
+       warning: no files found matching '*.yml' under directory '.ci'
+       warning: no files found matching '*.zip' under directory 'bin'
+       warning: no files found matching '*.txt' under directory 'etc'
+       warning: no files found matching '*.txt' under directory 'docs'
+       warning: no files found matching '*.yml' under directory 'tools'
+       warning: no files found matching '*.sh' under directory 'tools'
+       warning: no files found matching '*.txt' under directory 'more.features'
+       no previously-included directories found matching '.tox'
+       no previously-included directories found matching '.venv*'
+       no previously-included directories found matching 'paver_ext'
+       warning: no previously-included files found matching 'pavement.py'
+       writing manifest file 'behave.egg-info/SOURCES.txt'
+       installing library code to build/bdist.linux-x86_64/egg
+       running install_lib
+       running build_py
+       creating build
+       creating build/lib.linux-x86_64-2.7
+       copying setuptools_behave.py -> build/lib.linux-x86_64-2.7
+       creating build/lib.linux-x86_64-2.7/behave
+       copying behave/matchers.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/model_describe.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/runner.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/i18n.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/step_registry.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/runner_util.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/tag_expression.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/textutil.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/importer.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/__init__.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/capture.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/userdata.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/_types.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/_stepimport.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/json_parser.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/log_capture.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/configuration.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/parser.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/tag_matcher.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/model_core.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/__main__.py -> build/lib.linux-x86_64-2.7/behave
+       copying behave/model.py -> build/lib.linux-x86_64-2.7/behave
+       creating build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/_registry.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/json.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/sphinx_steps.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/pretty.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/formatters.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/plain.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/rerun.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/sphinx_util.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/__init__.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/progress.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/tags.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/null.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/steps.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/_builtins.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/base.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       copying behave/formatter/ansi_escapes.py -> build/lib.linux-x86_64-2.7/behave/formatter
+       creating build/lib.linux-x86_64-2.7/behave/contrib
+       copying behave/contrib/scenario_autoretry.py -> build/lib.linux-x86_64-2.7/behave/contrib
+       copying behave/contrib/__init__.py -> build/lib.linux-x86_64-2.7/behave/contrib
+       creating build/lib.linux-x86_64-2.7/behave/reporter
+       copying behave/reporter/summary.py -> build/lib.linux-x86_64-2.7/behave/reporter
+       copying behave/reporter/junit.py -> build/lib.linux-x86_64-2.7/behave/reporter
+       copying behave/reporter/__init__.py -> build/lib.linux-x86_64-2.7/behave/reporter
+       copying behave/reporter/base.py -> build/lib.linux-x86_64-2.7/behave/reporter
+       creating build/lib.linux-x86_64-2.7/behave/compat
+       copying behave/compat/collections.py -> build/lib.linux-x86_64-2.7/behave/compat
+       copying behave/compat/__init__.py -> build/lib.linux-x86_64-2.7/behave/compat
+       creating build/lib.linux-x86_64-2.7/behave/api
+       copying behave/api/async_step.py -> build/lib.linux-x86_64-2.7/behave/api
+       copying behave/api/__init__.py -> build/lib.linux-x86_64-2.7/behave/api
+       creating build/bdist.linux-x86_64
+       creating build/bdist.linux-x86_64/egg
+       creating build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/matchers.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/model_describe.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/runner.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/i18n.py -> build/bdist.linux-x86_64/egg/behave
+       creating build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/_registry.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/json.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/sphinx_steps.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/pretty.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/formatters.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/plain.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/rerun.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/sphinx_util.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/__init__.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/progress.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/tags.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/null.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/steps.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/_builtins.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/base.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/formatter/ansi_escapes.py -> build/bdist.linux-x86_64/egg/behave/formatter
+       copying build/lib.linux-x86_64-2.7/behave/step_registry.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/runner_util.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/tag_expression.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/textutil.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/importer.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/__init__.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/capture.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/userdata.py -> build/bdist.linux-x86_64/egg/behave
+       creating build/bdist.linux-x86_64/egg/behave/contrib
+       copying build/lib.linux-x86_64-2.7/behave/contrib/scenario_autoretry.py -> build/bdist.linux-x86_64/egg/behave/contrib
+       copying build/lib.linux-x86_64-2.7/behave/contrib/__init__.py -> build/bdist.linux-x86_64/egg/behave/contrib
+       copying build/lib.linux-x86_64-2.7/behave/_types.py -> build/bdist.linux-x86_64/egg/behave
+       creating build/bdist.linux-x86_64/egg/behave/reporter
+       copying build/lib.linux-x86_64-2.7/behave/reporter/summary.py -> build/bdist.linux-x86_64/egg/behave/reporter
+       copying build/lib.linux-x86_64-2.7/behave/reporter/junit.py -> build/bdist.linux-x86_64/egg/behave/reporter
+       copying build/lib.linux-x86_64-2.7/behave/reporter/__init__.py -> build/bdist.linux-x86_64/egg/behave/reporter
+       copying build/lib.linux-x86_64-2.7/behave/reporter/base.py -> build/bdist.linux-x86_64/egg/behave/reporter
+       copying build/lib.linux-x86_64-2.7/behave/_stepimport.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/json_parser.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/log_capture.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/configuration.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/parser.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/tag_matcher.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/model_core.py -> build/bdist.linux-x86_64/egg/behave
+       creating build/bdist.linux-x86_64/egg/behave/compat
+       copying build/lib.linux-x86_64-2.7/behave/compat/collections.py -> build/bdist.linux-x86_64/egg/behave/compat
+       copying build/lib.linux-x86_64-2.7/behave/compat/__init__.py -> build/bdist.linux-x86_64/egg/behave/compat
+       creating build/bdist.linux-x86_64/egg/behave/api
+       copying build/lib.linux-x86_64-2.7/behave/api/async_step.py -> build/bdist.linux-x86_64/egg/behave/api
+       copying build/lib.linux-x86_64-2.7/behave/api/__init__.py -> build/bdist.linux-x86_64/egg/behave/api
+       copying build/lib.linux-x86_64-2.7/behave/__main__.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/behave/model.py -> build/bdist.linux-x86_64/egg/behave
+       copying build/lib.linux-x86_64-2.7/setuptools_behave.py -> build/bdist.linux-x86_64/egg
+       byte-compiling build/bdist.linux-x86_64/egg/behave/matchers.py to matchers.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/model_describe.py to model_describe.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/runner.py to runner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/i18n.py to i18n.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/_registry.py to _registry.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/json.py to json.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/sphinx_steps.py to sphinx_steps.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/pretty.py to pretty.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/formatters.py to formatters.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/plain.py to plain.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/rerun.py to rerun.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/sphinx_util.py to sphinx_util.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/progress.py to progress.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/tags.py to tags.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/null.py to null.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/steps.py to steps.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/_builtins.py to _builtins.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/base.py to base.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/formatter/ansi_escapes.py to ansi_escapes.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/step_registry.py to step_registry.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/runner_util.py to runner_util.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/tag_expression.py to tag_expression.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/textutil.py to textutil.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/importer.py to importer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/capture.py to capture.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/userdata.py to userdata.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/contrib/scenario_autoretry.py to scenario_autoretry.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/contrib/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/_types.py to _types.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/reporter/summary.py to summary.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/reporter/junit.py to junit.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/reporter/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/reporter/base.py to base.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/_stepimport.py to _stepimport.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/json_parser.py to json_parser.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/log_capture.py to log_capture.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/configuration.py to configuration.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/parser.py to parser.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/tag_matcher.py to tag_matcher.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/model_core.py to model_core.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/compat/collections.py to collections.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/compat/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/api/async_step.py to async_step.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/api/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/__main__.py to __main__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/behave/model.py to model.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/setuptools_behave.py to setuptools_behave.pyc
+       creating build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying behave.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+       creating dist
+       creating 'dist/behave-1.2.6.dev0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+       removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+       Processing behave-1.2.6.dev0-py2.7.egg
+       Copying behave-1.2.6.dev0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+       Adding behave 1.2.6.dev0 to easy-install.pth file
+       Installing behave script to /usr/local/bin
+       
+       Installed /usr/local/lib/python2.7/dist-packages/behave-1.2.6.dev0-py2.7.egg
+       Processing dependencies for behave==1.2.6.dev0
+       Searching for traceback2==1.4.0
+       Best match: traceback2 1.4.0
+       Processing traceback2-1.4.0-py2.7.egg
+       traceback2 1.4.0 is already the active version in easy-install.pth
+       
+       Using /usr/local/lib/python2.7/dist-packages/traceback2-1.4.0-py2.7.egg
+       Searching for enum34==1.1.6
+       Best match: enum34 1.1.6
+       Processing enum34-1.1.6-py2.7.egg
+       enum34 1.1.6 is already the active version in easy-install.pth
+       
+       Using /usr/local/lib/python2.7/dist-packages/enum34-1.1.6-py2.7.egg
+       Searching for six==1.10.0
+       Best match: six 1.10.0
+       Adding six 1.10.0 to easy-install.pth file
+       
+       Using /usr/lib/python2.7/dist-packages
+       Searching for parse-type==0.3.4
+       Best match: parse-type 0.3.4
+       Processing parse_type-0.3.4-py2.7.egg
+       parse-type 0.3.4 is already the active version in easy-install.pth
+       
+       Using /usr/local/lib/python2.7/dist-packages/parse_type-0.3.4-py2.7.egg
+       Searching for parse==1.8.2
+       Best match: parse 1.8.2
+       Processing parse-1.8.2-py2.7.egg
+       parse 1.8.2 is already the active version in easy-install.pth
+       
+       Using /usr/local/lib/python2.7/dist-packages/parse-1.8.2-py2.7.egg
+       Searching for linecache2==1.0.0
+       Best match: linecache2 1.0.0
+       Processing linecache2-1.0.0-py2.7.egg
+       linecache2 1.0.0 is already the active version in easy-install.pth
+       
+       Using /usr/local/lib/python2.7/dist-packages/linecache2-1.0.0-py2.7.egg
+       Finished processing dependencies for behave==1.2.6.dev0
+       Plugin robot installed (version 0.1.3)
+-----> Running postinstall for robot plugin
+       running install
+       running bdist_egg
+       running egg_info
+       creating src/robotframework.egg-info
+       writing src/robotframework.egg-info/PKG-INFO
+       writing top-level names to src/robotframework.egg-info/top_level.txt
+       writing dependency_links to src/robotframework.egg-info/dependency_links.txt
+       writing manifest file 'src/robotframework.egg-info/SOURCES.txt'
+       reading manifest file 'src/robotframework.egg-info/SOURCES.txt'
+       reading manifest template 'MANIFEST.in'
+       writing manifest file 'src/robotframework.egg-info/SOURCES.txt'
+       installing library code to build/bdist.linux-x86_64/egg
+       running install_lib
+       running build_py
+       creating build
+       creating build/lib.linux-x86_64-2.7
+       creating build/lib.linux-x86_64-2.7/robot
+       copying src/robot/rebot.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/testdoc.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/version.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/run.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/tidy.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/__init__.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/errors.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/jarrunner.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/libdoc.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/pythonpathsetter.py -> build/lib.linux-x86_64-2.7/robot
+       copying src/robot/__main__.py -> build/lib.linux-x86_64-2.7/robot
+       creating build/lib.linux-x86_64-2.7/robot/api
+       copying src/robot/api/deco.py -> build/lib.linux-x86_64-2.7/robot/api
+       copying src/robot/api/logger.py -> build/lib.linux-x86_64-2.7/robot/api
+       copying src/robot/api/__init__.py -> build/lib.linux-x86_64-2.7/robot/api
+       creating build/lib.linux-x86_64-2.7/robot/conf
+       copying src/robot/conf/settings.py -> build/lib.linux-x86_64-2.7/robot/conf
+       copying src/robot/conf/__init__.py -> build/lib.linux-x86_64-2.7/robot/conf
+       copying src/robot/conf/gatherfailed.py -> build/lib.linux-x86_64-2.7/robot/conf
+       creating build/lib.linux-x86_64-2.7/robot/htmldata
+       copying src/robot/htmldata/htmlfilewriter.py -> build/lib.linux-x86_64-2.7/robot/htmldata
+       copying src/robot/htmldata/jartemplate.py -> build/lib.linux-x86_64-2.7/robot/htmldata
+       copying src/robot/htmldata/__init__.py -> build/lib.linux-x86_64-2.7/robot/htmldata
+       copying src/robot/htmldata/normaltemplate.py -> build/lib.linux-x86_64-2.7/robot/htmldata
+       copying src/robot/htmldata/jsonwriter.py -> build/lib.linux-x86_64-2.7/robot/htmldata
+       copying src/robot/htmldata/template.py -> build/lib.linux-x86_64-2.7/robot/htmldata
+       creating build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/consoleviewer.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/xmlwriter.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/htmlwriter.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/writer.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/builder.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/robotbuilder.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/__init__.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/specbuilder.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/javabuilder.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/output.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       copying src/robot/libdocpkg/model.py -> build/lib.linux-x86_64-2.7/robot/libdocpkg
+       creating build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Screenshot.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Process.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Telnet.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Easter.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/OperatingSystem.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Collections.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/String.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Remote.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/__init__.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/XML.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/dialogs_py.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Dialogs.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/dialogs_jy.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/BuiltIn.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/Reserved.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/DateTime.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       copying src/robot/libraries/dialogs_ipy.py -> build/lib.linux-x86_64-2.7/robot/libraries
+       creating build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/itemlist.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/visitor.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/totalstatistics.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/statistics.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/metadata.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/testcase.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/filter.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/stats.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/modelobject.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/configurer.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/__init__.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/namepatterns.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/tags.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/keyword.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/modifier.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/tagstatistics.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/message.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/suitestatistics.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/testsuite.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/criticality.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/tagsetter.py -> build/lib.linux-x86_64-2.7/robot/model
+       copying src/robot/model/imports.py -> build/lib.linux-x86_64-2.7/robot/model
+       creating build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/librarylogger.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/stdoutlogsplitter.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/debugfile.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/listenermethods.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/logger.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/loggerhelper.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/xmllogger.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/listenerarguments.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/__init__.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/listeners.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/filelogger.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/pyloggingconf.py -> build/lib.linux-x86_64-2.7/robot/output
+       copying src/robot/output/output.py -> build/lib.linux-x86_64-2.7/robot/output
+       creating build/lib.linux-x86_64-2.7/robot/output/console
+       copying src/robot/output/console/dotted.py -> build/lib.linux-x86_64-2.7/robot/output/console
+       copying src/robot/output/console/verbose.py -> build/lib.linux-x86_64-2.7/robot/output/console
+       copying src/robot/output/console/highlighting.py -> build/lib.linux-x86_64-2.7/robot/output/console
+       copying src/robot/output/console/__init__.py -> build/lib.linux-x86_64-2.7/robot/output/console
+       copying src/robot/output/console/quiet.py -> build/lib.linux-x86_64-2.7/robot/output/console
+       creating build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/tsvreader.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/settings.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/populators.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/datarow.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/txtreader.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/tablepopulators.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/__init__.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/htmlreader.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/restreader.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/comments.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/restsupport.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       copying src/robot/parsing/model.py -> build/lib.linux-x86_64-2.7/robot/parsing
+       creating build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/logreportwriters.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/jsmodelbuilders.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/jsbuildingcontext.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/jsexecutionresult.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/outputwriter.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/resultwriter.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/__init__.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/xunitwriter.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/jswriter.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       copying src/robot/reporting/stringcache.py -> build/lib.linux-x86_64-2.7/robot/reporting
+       creating build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/visitor.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/resultbuilder.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/merger.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/suiteteardownfailed.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/executionerrors.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/flattenkeywordmatcher.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/configurer.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/__init__.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/keywordremover.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/messagefilter.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/executionresult.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/xmlelementhandlers.py -> build/lib.linux-x86_64-2.7/robot/result
+       copying src/robot/result/model.py -> build/lib.linux-x86_64-2.7/robot/result
+       creating build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/userkeyword.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/context.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/randomizer.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/runner.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/signalhandler.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/outputcapture.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/libraryscopes.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/librarykeywordrunner.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/userkeywordrunner.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/handlerstore.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/namespace.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/steprunner.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/builder.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/testlibraries.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/importer.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/statusreporter.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/__init__.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/status.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/dynamicmethods.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/usererrorhandler.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/runkwregister.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/defaults.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/handlers.py -> build/lib.linux-x86_64-2.7/robot/running
+       copying src/robot/running/model.py -> build/lib.linux-x86_64-2.7/robot/running
+       creating build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/embedded.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/argumentparser.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/__init__.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/javaargumentcoercer.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/argumentmapper.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/argumentspec.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/argumentresolver.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       copying src/robot/running/arguments/argumentvalidator.py -> build/lib.linux-x86_64-2.7/robot/running/arguments
+       creating build/lib.linux-x86_64-2.7/robot/running/timeouts
+       copying src/robot/running/timeouts/ironpython.py -> build/lib.linux-x86_64-2.7/robot/running/timeouts
+       copying src/robot/running/timeouts/__init__.py -> build/lib.linux-x86_64-2.7/robot/running/timeouts
+       copying src/robot/running/timeouts/jython.py -> build/lib.linux-x86_64-2.7/robot/running/timeouts
+       copying src/robot/running/timeouts/windows.py -> build/lib.linux-x86_64-2.7/robot/running/timeouts
+       copying src/robot/running/timeouts/posix.py -> build/lib.linux-x86_64-2.7/robot/running/timeouts
+       creating build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/markuputils.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robottypes2.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/markupwriters.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/compat.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/match.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/setter.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/normalizing.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/sortable.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/misc.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/application.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/recommendations.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robotpath.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/etreewrapper.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/argumentparser.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/error.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/ordereddict.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/encodingsniffer.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/importer.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/compress.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/escaping.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/__init__.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/charwidth.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robotio.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/platform.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robotenv.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robottypes3.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robottypes.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/frange.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/text.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robottime.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/connectioncache.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/unic.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/utf8reader.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/dotdict.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/robotinspect.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/htmlformatters.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/asserts.py -> build/lib.linux-x86_64-2.7/robot/utils
+       copying src/robot/utils/encoding.py -> build/lib.linux-x86_64-2.7/robot/utils
+       creating build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/isvar.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/scopes.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/assigner.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/replacer.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/tablesetter.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/__init__.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/finders.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/splitter.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/store.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/notfound.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/filesetter.py -> build/lib.linux-x86_64-2.7/robot/variables
+       copying src/robot/variables/variables.py -> build/lib.linux-x86_64-2.7/robot/variables
+       creating build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/aligners.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/dataextractor.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/filewriters.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/formatters.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/datafilewriter.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/rowsplitter.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/__init__.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/htmltemplate.py -> build/lib.linux-x86_64-2.7/robot/writer
+       copying src/robot/writer/htmlformatter.py -> build/lib.linux-x86_64-2.7/robot/writer
+       creating build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/report.html -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/log.html -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/report.css -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/log.css -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/common.css -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/print.css -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/fileloading.js -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/testdata.js -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/model.js -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/view.js -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/log.js -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       copying src/robot/htmldata/rebot/util.js -> build/lib.linux-x86_64-2.7/robot/htmldata/rebot
+       creating build/lib.linux-x86_64-2.7/robot/htmldata/libdoc
+       copying src/robot/htmldata/libdoc/libdoc.html -> build/lib.linux-x86_64-2.7/robot/htmldata/libdoc
+       copying src/robot/htmldata/libdoc/print.css -> build/lib.linux-x86_64-2.7/robot/htmldata/libdoc
+       copying src/robot/htmldata/libdoc/libdoc.css -> build/lib.linux-x86_64-2.7/robot/htmldata/libdoc
+       copying src/robot/htmldata/libdoc/pygments.css -> build/lib.linux-x86_64-2.7/robot/htmldata/libdoc
+       creating build/lib.linux-x86_64-2.7/robot/htmldata/testdoc
+       copying src/robot/htmldata/testdoc/testdoc.html -> build/lib.linux-x86_64-2.7/robot/htmldata/testdoc
+       copying src/robot/htmldata/testdoc/testdoc.css -> build/lib.linux-x86_64-2.7/robot/htmldata/testdoc
+       creating build/lib.linux-x86_64-2.7/robot/htmldata/lib
+       copying src/robot/htmldata/lib/jquery.tablesorter.min.js -> build/lib.linux-x86_64-2.7/robot/htmldata/lib
+       copying src/robot/htmldata/lib/jquery.min.js -> build/lib.linux-x86_64-2.7/robot/htmldata/lib
+       copying src/robot/htmldata/lib/jquery.tmpl.min.js -> build/lib.linux-x86_64-2.7/robot/htmldata/lib
+       copying src/robot/htmldata/lib/jsxcompressor.min.js -> build/lib.linux-x86_64-2.7/robot/htmldata/lib
+       copying src/robot/htmldata/lib/jquery.highlight.min.js -> build/lib.linux-x86_64-2.7/robot/htmldata/lib
+       creating build/lib.linux-x86_64-2.7/robot/htmldata/common
+       copying src/robot/htmldata/common/doc_formatting.css -> build/lib.linux-x86_64-2.7/robot/htmldata/common
+       copying src/robot/htmldata/common/js_disabled.css -> build/lib.linux-x86_64-2.7/robot/htmldata/common
+       copying src/robot/htmldata/common/storage.js -> build/lib.linux-x86_64-2.7/robot/htmldata/common
+       creating build/bdist.linux-x86_64
+       creating build/bdist.linux-x86_64/egg
+       creating build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Screenshot.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Process.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Telnet.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Easter.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/OperatingSystem.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Collections.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/String.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Remote.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/__init__.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/XML.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/dialogs_py.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Dialogs.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/dialogs_jy.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/BuiltIn.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/Reserved.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/DateTime.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       copying build/lib.linux-x86_64-2.7/robot/libraries/dialogs_ipy.py -> build/bdist.linux-x86_64/egg/robot/libraries
+       creating build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/aligners.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/dataextractor.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/filewriters.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/formatters.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/datafilewriter.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/rowsplitter.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/__init__.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/htmltemplate.py -> build/bdist.linux-x86_64/egg/robot/writer
+       copying build/lib.linux-x86_64-2.7/robot/writer/htmlformatter.py -> build/bdist.linux-x86_64/egg/robot/writer
+       creating build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/consoleviewer.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/xmlwriter.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/htmlwriter.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/writer.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/builder.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/robotbuilder.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/__init__.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/specbuilder.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/javabuilder.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/output.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       copying build/lib.linux-x86_64-2.7/robot/libdocpkg/model.py -> build/bdist.linux-x86_64/egg/robot/libdocpkg
+       creating build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/markuputils.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robottypes2.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/markupwriters.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/compat.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/match.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/setter.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/normalizing.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/sortable.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/misc.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/application.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/recommendations.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robotpath.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/etreewrapper.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/argumentparser.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/error.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/ordereddict.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/encodingsniffer.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/importer.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/compress.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/escaping.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/__init__.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/charwidth.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robotio.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/platform.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robotenv.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robottypes3.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robottypes.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/frange.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/text.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robottime.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/connectioncache.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/unic.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/utf8reader.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/dotdict.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/robotinspect.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/htmlformatters.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/asserts.py -> build/bdist.linux-x86_64/egg/robot/utils
+       copying build/lib.linux-x86_64-2.7/robot/utils/encoding.py -> build/bdist.linux-x86_64/egg/robot/utils
+       creating build/bdist.linux-x86_64/egg/robot/htmldata
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/htmlfilewriter.py -> build/bdist.linux-x86_64/egg/robot/htmldata
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/jartemplate.py -> build/bdist.linux-x86_64/egg/robot/htmldata
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/__init__.py -> build/bdist.linux-x86_64/egg/robot/htmldata
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/normaltemplate.py -> build/bdist.linux-x86_64/egg/robot/htmldata
+       creating build/bdist.linux-x86_64/egg/robot/htmldata/lib
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/lib/jquery.tablesorter.min.js -> build/bdist.linux-x86_64/egg/robot/htmldata/lib
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/lib/jquery.min.js -> build/bdist.linux-x86_64/egg/robot/htmldata/lib
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/lib/jquery.tmpl.min.js -> build/bdist.linux-x86_64/egg/robot/htmldata/lib
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/lib/jsxcompressor.min.js -> build/bdist.linux-x86_64/egg/robot/htmldata/lib
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/lib/jquery.highlight.min.js -> build/bdist.linux-x86_64/egg/robot/htmldata/lib
+       creating build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/report.css -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/log.css -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/common.css -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/fileloading.js -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/report.html -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/print.css -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/testdata.js -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/log.html -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/model.js -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/view.js -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/log.js -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/rebot/util.js -> build/bdist.linux-x86_64/egg/robot/htmldata/rebot
+       creating build/bdist.linux-x86_64/egg/robot/htmldata/common
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/common/storage.js -> build/bdist.linux-x86_64/egg/robot/htmldata/common
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/common/doc_formatting.css -> build/bdist.linux-x86_64/egg/robot/htmldata/common
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/common/js_disabled.css -> build/bdist.linux-x86_64/egg/robot/htmldata/common
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/jsonwriter.py -> build/bdist.linux-x86_64/egg/robot/htmldata
+       creating build/bdist.linux-x86_64/egg/robot/htmldata/testdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/testdoc/testdoc.html -> build/bdist.linux-x86_64/egg/robot/htmldata/testdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/testdoc/testdoc.css -> build/bdist.linux-x86_64/egg/robot/htmldata/testdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/template.py -> build/bdist.linux-x86_64/egg/robot/htmldata
+       creating build/bdist.linux-x86_64/egg/robot/htmldata/libdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/libdoc/libdoc.html -> build/bdist.linux-x86_64/egg/robot/htmldata/libdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/libdoc/print.css -> build/bdist.linux-x86_64/egg/robot/htmldata/libdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/libdoc/libdoc.css -> build/bdist.linux-x86_64/egg/robot/htmldata/libdoc
+       copying build/lib.linux-x86_64-2.7/robot/htmldata/libdoc/pygments.css -> build/bdist.linux-x86_64/egg/robot/htmldata/libdoc
+       copying build/lib.linux-x86_64-2.7/robot/rebot.py -> build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/conf
+       copying build/lib.linux-x86_64-2.7/robot/conf/settings.py -> build/bdist.linux-x86_64/egg/robot/conf
+       copying build/lib.linux-x86_64-2.7/robot/conf/__init__.py -> build/bdist.linux-x86_64/egg/robot/conf
+       copying build/lib.linux-x86_64-2.7/robot/conf/gatherfailed.py -> build/bdist.linux-x86_64/egg/robot/conf
+       copying build/lib.linux-x86_64-2.7/robot/testdoc.py -> build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/isvar.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/scopes.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/assigner.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/replacer.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/tablesetter.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/__init__.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/finders.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/splitter.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/store.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/notfound.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/filesetter.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/variables/variables.py -> build/bdist.linux-x86_64/egg/robot/variables
+       copying build/lib.linux-x86_64-2.7/robot/version.py -> build/bdist.linux-x86_64/egg/robot
+       copying build/lib.linux-x86_64-2.7/robot/run.py -> build/bdist.linux-x86_64/egg/robot
+       copying build/lib.linux-x86_64-2.7/robot/tidy.py -> build/bdist.linux-x86_64/egg/robot
+       copying build/lib.linux-x86_64-2.7/robot/__init__.py -> build/bdist.linux-x86_64/egg/robot
+       copying build/lib.linux-x86_64-2.7/robot/errors.py -> build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/visitor.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/resultbuilder.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/merger.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/suiteteardownfailed.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/executionerrors.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/flattenkeywordmatcher.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/configurer.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/__init__.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/keywordremover.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/messagefilter.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/executionresult.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/xmlelementhandlers.py -> build/bdist.linux-x86_64/egg/robot/result
+       copying build/lib.linux-x86_64-2.7/robot/result/model.py -> build/bdist.linux-x86_64/egg/robot/result
+       creating build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/itemlist.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/visitor.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/totalstatistics.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/statistics.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/metadata.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/testcase.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/filter.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/stats.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/modelobject.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/configurer.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/__init__.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/namepatterns.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/tags.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/keyword.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/modifier.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/tagstatistics.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/message.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/suitestatistics.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/testsuite.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/criticality.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/tagsetter.py -> build/bdist.linux-x86_64/egg/robot/model
+       copying build/lib.linux-x86_64-2.7/robot/model/imports.py -> build/bdist.linux-x86_64/egg/robot/model
+       creating build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/librarylogger.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/stdoutlogsplitter.py -> build/bdist.linux-x86_64/egg/robot/output
+       creating build/bdist.linux-x86_64/egg/robot/output/console
+       copying build/lib.linux-x86_64-2.7/robot/output/console/dotted.py -> build/bdist.linux-x86_64/egg/robot/output/console
+       copying build/lib.linux-x86_64-2.7/robot/output/console/verbose.py -> build/bdist.linux-x86_64/egg/robot/output/console
+       copying build/lib.linux-x86_64-2.7/robot/output/console/highlighting.py -> build/bdist.linux-x86_64/egg/robot/output/console
+       copying build/lib.linux-x86_64-2.7/robot/output/console/__init__.py -> build/bdist.linux-x86_64/egg/robot/output/console
+       copying build/lib.linux-x86_64-2.7/robot/output/console/quiet.py -> build/bdist.linux-x86_64/egg/robot/output/console
+       copying build/lib.linux-x86_64-2.7/robot/output/debugfile.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/listenermethods.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/logger.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/loggerhelper.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/xmllogger.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/listenerarguments.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/__init__.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/listeners.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/filelogger.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/pyloggingconf.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/output/output.py -> build/bdist.linux-x86_64/egg/robot/output
+       copying build/lib.linux-x86_64-2.7/robot/jarrunner.py -> build/bdist.linux-x86_64/egg/robot
+       copying build/lib.linux-x86_64-2.7/robot/libdoc.py -> build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/userkeyword.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/context.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/randomizer.py -> build/bdist.linux-x86_64/egg/robot/running
+       creating build/bdist.linux-x86_64/egg/robot/running/timeouts
+       copying build/lib.linux-x86_64-2.7/robot/running/timeouts/ironpython.py -> build/bdist.linux-x86_64/egg/robot/running/timeouts
+       copying build/lib.linux-x86_64-2.7/robot/running/timeouts/__init__.py -> build/bdist.linux-x86_64/egg/robot/running/timeouts
+       copying build/lib.linux-x86_64-2.7/robot/running/timeouts/jython.py -> build/bdist.linux-x86_64/egg/robot/running/timeouts
+       copying build/lib.linux-x86_64-2.7/robot/running/timeouts/windows.py -> build/bdist.linux-x86_64/egg/robot/running/timeouts
+       copying build/lib.linux-x86_64-2.7/robot/running/timeouts/posix.py -> build/bdist.linux-x86_64/egg/robot/running/timeouts
+       copying build/lib.linux-x86_64-2.7/robot/running/runner.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/signalhandler.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/outputcapture.py -> build/bdist.linux-x86_64/egg/robot/running
+       creating build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/embedded.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/argumentparser.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/__init__.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/javaargumentcoercer.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/argumentmapper.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/argumentspec.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/argumentresolver.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/arguments/argumentvalidator.py -> build/bdist.linux-x86_64/egg/robot/running/arguments
+       copying build/lib.linux-x86_64-2.7/robot/running/libraryscopes.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/librarykeywordrunner.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/userkeywordrunner.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/handlerstore.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/namespace.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/steprunner.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/builder.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/testlibraries.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/importer.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/statusreporter.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/__init__.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/status.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/dynamicmethods.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/usererrorhandler.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/runkwregister.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/defaults.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/handlers.py -> build/bdist.linux-x86_64/egg/robot/running
+       copying build/lib.linux-x86_64-2.7/robot/running/model.py -> build/bdist.linux-x86_64/egg/robot/running
+       creating build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/logreportwriters.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/jsmodelbuilders.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/jsbuildingcontext.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/jsexecutionresult.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/outputwriter.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/resultwriter.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/__init__.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/xunitwriter.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/jswriter.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/reporting/stringcache.py -> build/bdist.linux-x86_64/egg/robot/reporting
+       copying build/lib.linux-x86_64-2.7/robot/pythonpathsetter.py -> build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/api
+       copying build/lib.linux-x86_64-2.7/robot/api/deco.py -> build/bdist.linux-x86_64/egg/robot/api
+       copying build/lib.linux-x86_64-2.7/robot/api/logger.py -> build/bdist.linux-x86_64/egg/robot/api
+       copying build/lib.linux-x86_64-2.7/robot/api/__init__.py -> build/bdist.linux-x86_64/egg/robot/api
+       copying build/lib.linux-x86_64-2.7/robot/__main__.py -> build/bdist.linux-x86_64/egg/robot
+       creating build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/tsvreader.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/settings.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/populators.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/datarow.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/txtreader.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/tablepopulators.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/__init__.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/htmlreader.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/restreader.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/comments.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/restsupport.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       copying build/lib.linux-x86_64-2.7/robot/parsing/model.py -> build/bdist.linux-x86_64/egg/robot/parsing
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Screenshot.py to Screenshot.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Process.py to Process.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Telnet.py to Telnet.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Easter.py to Easter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/OperatingSystem.py to OperatingSystem.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Collections.py to Collections.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/String.py to String.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Remote.py to Remote.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/XML.py to XML.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/dialogs_py.py to dialogs_py.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Dialogs.py to Dialogs.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/dialogs_jy.py to dialogs_jy.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/BuiltIn.py to BuiltIn.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/Reserved.py to Reserved.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/DateTime.py to DateTime.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libraries/dialogs_ipy.py to dialogs_ipy.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/aligners.py to aligners.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/dataextractor.py to dataextractor.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/filewriters.py to filewriters.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/formatters.py to formatters.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/datafilewriter.py to datafilewriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/rowsplitter.py to rowsplitter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/htmltemplate.py to htmltemplate.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/writer/htmlformatter.py to htmlformatter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/consoleviewer.py to consoleviewer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/xmlwriter.py to xmlwriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/htmlwriter.py to htmlwriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/writer.py to writer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/builder.py to builder.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/robotbuilder.py to robotbuilder.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/specbuilder.py to specbuilder.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/javabuilder.py to javabuilder.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/output.py to output.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdocpkg/model.py to model.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/markuputils.py to markuputils.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robottypes2.py to robottypes2.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/markupwriters.py to markupwriters.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/compat.py to compat.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/match.py to match.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/setter.py to setter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/normalizing.py to normalizing.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/sortable.py to sortable.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/misc.py to misc.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/application.py to application.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/recommendations.py to recommendations.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robotpath.py to robotpath.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/etreewrapper.py to etreewrapper.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/argumentparser.py to argumentparser.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/error.py to error.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/ordereddict.py to ordereddict.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/encodingsniffer.py to encodingsniffer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/importer.py to importer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/compress.py to compress.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/escaping.py to escaping.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/charwidth.py to charwidth.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robotio.py to robotio.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/platform.py to platform.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robotenv.py to robotenv.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robottypes3.py to robottypes3.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robottypes.py to robottypes.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/frange.py to frange.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/text.py to text.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robottime.py to robottime.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/connectioncache.py to connectioncache.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/unic.py to unic.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/utf8reader.py to utf8reader.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/dotdict.py to dotdict.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/robotinspect.py to robotinspect.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/htmlformatters.py to htmlformatters.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/asserts.py to asserts.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/utils/encoding.py to encoding.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/htmldata/htmlfilewriter.py to htmlfilewriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/htmldata/jartemplate.py to jartemplate.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/htmldata/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/htmldata/normaltemplate.py to normaltemplate.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/htmldata/jsonwriter.py to jsonwriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/htmldata/template.py to template.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/rebot.py to rebot.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/conf/settings.py to settings.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/conf/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/conf/gatherfailed.py to gatherfailed.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/testdoc.py to testdoc.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/isvar.py to isvar.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/scopes.py to scopes.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/assigner.py to assigner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/replacer.py to replacer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/tablesetter.py to tablesetter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/finders.py to finders.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/splitter.py to splitter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/store.py to store.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/notfound.py to notfound.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/filesetter.py to filesetter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/variables/variables.py to variables.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/version.py to version.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/run.py to run.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/tidy.py to tidy.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/errors.py to errors.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/visitor.py to visitor.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/resultbuilder.py to resultbuilder.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/merger.py to merger.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/suiteteardownfailed.py to suiteteardownfailed.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/executionerrors.py to executionerrors.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/flattenkeywordmatcher.py to flattenkeywordmatcher.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/configurer.py to configurer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/keywordremover.py to keywordremover.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/messagefilter.py to messagefilter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/executionresult.py to executionresult.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/xmlelementhandlers.py to xmlelementhandlers.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/result/model.py to model.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/itemlist.py to itemlist.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/visitor.py to visitor.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/totalstatistics.py to totalstatistics.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/statistics.py to statistics.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/metadata.py to metadata.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/testcase.py to testcase.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/filter.py to filter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/stats.py to stats.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/modelobject.py to modelobject.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/configurer.py to configurer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/namepatterns.py to namepatterns.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/tags.py to tags.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/keyword.py to keyword.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/modifier.py to modifier.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/tagstatistics.py to tagstatistics.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/message.py to message.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/suitestatistics.py to suitestatistics.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/testsuite.py to testsuite.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/criticality.py to criticality.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/tagsetter.py to tagsetter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/model/imports.py to imports.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/librarylogger.py to librarylogger.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/stdoutlogsplitter.py to stdoutlogsplitter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/console/dotted.py to dotted.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/console/verbose.py to verbose.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/console/highlighting.py to highlighting.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/console/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/console/quiet.py to quiet.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/debugfile.py to debugfile.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/listenermethods.py to listenermethods.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/logger.py to logger.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/loggerhelper.py to loggerhelper.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/xmllogger.py to xmllogger.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/listenerarguments.py to listenerarguments.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/listeners.py to listeners.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/filelogger.py to filelogger.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/pyloggingconf.py to pyloggingconf.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/output/output.py to output.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/jarrunner.py to jarrunner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/libdoc.py to libdoc.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/userkeyword.py to userkeyword.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/context.py to context.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/randomizer.py to randomizer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/timeouts/ironpython.py to ironpython.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/timeouts/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/timeouts/jython.py to jython.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/timeouts/windows.py to windows.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/timeouts/posix.py to posix.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/runner.py to runner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/signalhandler.py to signalhandler.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/outputcapture.py to outputcapture.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/embedded.py to embedded.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/argumentparser.py to argumentparser.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/javaargumentcoercer.py to javaargumentcoercer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/argumentmapper.py to argumentmapper.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/argumentspec.py to argumentspec.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/argumentresolver.py to argumentresolver.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/arguments/argumentvalidator.py to argumentvalidator.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/libraryscopes.py to libraryscopes.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/librarykeywordrunner.py to librarykeywordrunner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/userkeywordrunner.py to userkeywordrunner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/handlerstore.py to handlerstore.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/namespace.py to namespace.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/steprunner.py to steprunner.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/builder.py to builder.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/testlibraries.py to testlibraries.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/importer.py to importer.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/statusreporter.py to statusreporter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/status.py to status.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/dynamicmethods.py to dynamicmethods.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/usererrorhandler.py to usererrorhandler.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/runkwregister.py to runkwregister.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/defaults.py to defaults.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/handlers.py to handlers.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/running/model.py to model.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/logreportwriters.py to logreportwriters.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/jsmodelbuilders.py to jsmodelbuilders.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/jsbuildingcontext.py to jsbuildingcontext.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/jsexecutionresult.py to jsexecutionresult.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/outputwriter.py to outputwriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/resultwriter.py to resultwriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/xunitwriter.py to xunitwriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/jswriter.py to jswriter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/reporting/stringcache.py to stringcache.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/pythonpathsetter.py to pythonpathsetter.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/api/deco.py to deco.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/api/logger.py to logger.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/api/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/__main__.py to __main__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/tsvreader.py to tsvreader.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/settings.py to settings.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/populators.py to populators.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/datarow.py to datarow.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/txtreader.py to txtreader.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/tablepopulators.py to tablepopulators.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/__init__.py to __init__.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/htmlreader.py to htmlreader.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/restreader.py to restreader.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/comments.py to comments.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/restsupport.py to restsupport.pyc
+       byte-compiling build/bdist.linux-x86_64/egg/robot/parsing/model.py to model.pyc
+       creating build/bdist.linux-x86_64/egg/EGG-INFO
+       installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+       running install_scripts
+       running build_scripts
+       creating build/scripts-2.7
+       copying and adjusting src/bin/pybot -> build/scripts-2.7
+       copying and adjusting src/bin/robot -> build/scripts-2.7
+       copying and adjusting src/bin/rebot -> build/scripts-2.7
+       changing mode of build/scripts-2.7/pybot from 644 to 755
+       changing mode of build/scripts-2.7/robot from 644 to 755
+       changing mode of build/scripts-2.7/rebot from 644 to 755
+       creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+       copying build/scripts-2.7/robot -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+       copying build/scripts-2.7/pybot -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+       copying build/scripts-2.7/rebot -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+       changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/robot to 755
+       changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pybot to 755
+       changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rebot to 755
+       copying src/robotframework.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying src/robotframework.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying src/robotframework.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       copying src/robotframework.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+       zip_safe flag not set; analyzing archive contents...
+       robot.pythonpathsetter: module references __file__
+       robot.utils.importer: module references __file__
+       robot.htmldata.normaltemplate: module references __file__
+       creating dist
+       creating 'dist/robotframework-3.0.3.dev20170213-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+       removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+       Processing robotframework-3.0.3.dev20170213-py2.7.egg
+       creating /usr/local/lib/python2.7/dist-packages/robotframework-3.0.3.dev20170213-py2.7.egg
+       Extracting robotframework-3.0.3.dev20170213-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+       Adding robotframework 3.0.3.dev20170213 to easy-install.pth file
+       Installing robot script to /usr/local/bin
+       Installing pybot script to /usr/local/bin
+       Installing rebot script to /usr/local/bin
+       
+       Installed /usr/local/lib/python2.7/dist-packages/robotframework-3.0.3.dev20170213-py2.7.egg
+       Processing dependencies for robotframework==3.0.3.dev20170213
+       Finished processing dependencies for robotframework==3.0.3.dev20170213
+       Suite path directory /tmp/verifier/suites does not exist, skipping.
+       Transferring files to <default-ubuntu-1604>
+-----> Running behave test suite
+       1 feature passed, 0 failed, 0 skipped
+       2 scenarios passed, 0 failed, 0 skipped
+       6 steps passed, 0 failed, 0 skipped, 0 undefined
+       Took 0m0.001s
+-----> Running robot test suite
+       ==============================================================================
+       Robot                                                                         
+       ==============================================================================
+       Robot.Sampletest                                                              
+       ==============================================================================
+       [TC-001]-A positive test                                              [32m.[0m[32m.[0m                                                                              [TC-001]-A positive test                                              | [32mPASS[0m |
+       ------------------------------------------------------------------------------
+       [TC-002]-A failing test                                               [32m.[0m[31mF[0m                                                                              [TC-002]-A failing test                                               | [31mFAIL[0m |
+       Hello world != agfhjjhhjhj
+       ------------------------------------------------------------------------------
+       [TC-003]-Another test that returns two values                         [32m.[0m[32m.[0m[32m.[0m                                                                              [TC-003]-Another test that returns two values                         | [32mPASS[0m |
+       ------------------------------------------------------------------------------
+       Robot.Sampletest                                                      | [31mFAIL[0m |
+       3 critical tests, 2 passed, 1 failed
+       3 tests total, 2 passed, 1 failed
+       ==============================================================================
+       Robot                                                                 | [31mFAIL[0m |
+       3 critical tests, 2 passed, 1 failed
+       3 tests total, 2 passed, 1 failed
+       ==============================================================================
+       Output:  /root/robotlogs/output.xml
+       Log:     /root/robotlogs/log.html
+       Report:  /root/robotlogs/report.html
+       !!!!!! Command [pybot --pythonpath /tmp/verifier/suites/robot -d robotlogs /tmp/verifier/suites/robot] exit code was 1

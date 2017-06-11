@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170611 12:22:38.153" generator="Robot 3.0.3.dev20170213 (Python 2.7.12+ on linux2)">
+<suite source="/tmp/verifier/suites/robot" id="s1" name="Robot">
+<suite source="/tmp/verifier/suites/robot/sampletest.txt" id="s1-s1" name="Sampletest">
+<test id="s1-s1-t1" name="[TC-001]-A positive test">
+<kw name="Return String" library="SampleLib">
+<assign>
+<var>${string}</var>
+</assign>
+<msg timestamp="20170611 12:22:38.190" level="INFO">${string} = Hello world</msg>
+<status status="PASS" endtime="20170611 12:22:38.190" starttime="20170611 12:22:38.189"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${string}</arg>
+<arg>Hello world</arg>
+</arguments>
+<msg timestamp="20170611 12:22:38.190" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20170611 12:22:38.191" starttime="20170611 12:22:38.190"></status>
+</kw>
+<status status="PASS" endtime="20170611 12:22:38.191" critical="yes" starttime="20170611 12:22:38.189"></status>
+</test>
+<test id="s1-s1-t2" name="[TC-002]-A failing test">
+<kw name="Return String" library="SampleLib">
+<assign>
+<var>${string}</var>
+</assign>
+<msg timestamp="20170611 12:22:38.194" level="INFO">${string} = Hello world</msg>
+<status status="PASS" endtime="20170611 12:22:38.194" starttime="20170611 12:22:38.193"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${string}</arg>
+<arg>agfhjjhhjhj</arg>
+</arguments>
+<msg timestamp="20170611 12:22:38.194" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'unicode'&gt;</msg>
+<msg timestamp="20170611 12:22:38.195" level="FAIL">Hello world != agfhjjhhjhj</msg>
+<status status="FAIL" endtime="20170611 12:22:38.195" starttime="20170611 12:22:38.194"></status>
+</kw>
+<status status="FAIL" endtime="20170611 12:22:38.195" critical="yes" starttime="20170611 12:22:38.193">Hello world != agfhjjhhjhj</status>
+</test>
+<test id="s1-s1-t3" name="[TC-003]-Another test that returns two values">
+<kw name="Return Two Strings" library="SampleLib">
+<assign>
+<var>${var1}</var>
+<var>${var2}</var>
+</assign>
+<msg timestamp="20170611 12:22:38.198" level="INFO">${var1} = value1</msg>
+<msg timestamp="20170611 12:22:38.198" level="INFO">${var2} = value2</msg>
+<status status="PASS" endtime="20170611 12:22:38.198" starttime="20170611 12:22:38.198"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${var1}</arg>
+<arg>value1</arg>
+</arguments>
+<msg timestamp="20170611 12:22:38.199" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20170611 12:22:38.199" starttime="20170611 12:22:38.199"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${var2}</arg>
+<arg>value2</arg>
+</arguments>
+<msg timestamp="20170611 12:22:38.200" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20170611 12:22:38.200" starttime="20170611 12:22:38.200"></status>
+</kw>
+<status status="PASS" endtime="20170611 12:22:38.200" critical="yes" starttime="20170611 12:22:38.197"></status>
+</test>
+<status status="FAIL" endtime="20170611 12:22:38.202" starttime="20170611 12:22:38.184"></status>
+</suite>
+<status status="FAIL" endtime="20170611 12:22:38.205" starttime="20170611 12:22:38.154"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="2">Critical Tests</stat>
+<stat fail="1" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Robot" pass="2">Robot</stat>
+<stat fail="1" id="s1-s1" name="Sampletest" pass="2">Robot.Sampletest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
